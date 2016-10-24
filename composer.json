@@ -1,0 +1,20 @@
+{
+  "name": "mhistihori/magento2-payment-doku",
+  "description": "Payment Method Doku For Magento 2",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mhistihori\\Mail\\Smtp\\": ""
+    }
+  }
+}
